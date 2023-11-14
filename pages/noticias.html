@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,22 @@
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <style>
+        .calendar-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
+        iframe {
+            border: 0;
+            width: 600px; 
+            height: 400px; 
+        }
+    </style>
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -22,7 +37,8 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="../pages/quienesomos.html">Quienés somos</a>
+                            <a class="nav-link active" aria-current="page" href="../pages/quienesomos.html">Quienés
+                                somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="../pages/noticias.html">Noticias</a>
@@ -35,12 +51,12 @@
             </div>
         </nav>
     </header>
-    <section>
-        <h1 class="titulo">
-            Agenda de eventos sobre el ACTIVISMO GORDX
+        <h1>
+            Agenda de interes sobre el Activismo Gordx
         </h1>
-        <iframe src="https://calendar.google.com/calendar/embed?src=topporuiz%40gmail.com&ctz=America%2FArgentina%2FBuenos_Aires" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-    </section>
+        <div>
+            <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%23E67C73&ctz=America%2FArgentina%2FBuenos_Aires&title=Agenda%20Gordx&showTabs=1&showPrint=0&showNav=1&showCalendars=0&src=YmE3ZGI4ODY0ZjVkNWM4OTY1YzhjZDM1MzY0ODhhMDRiMjg5ZWM5Mzc5NDc5NDZmYjg0OGU2Yzk0OWRiNmZhZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%233F51B5" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+        </div>
     <footer class="footer">
         <div class="box__footer">
             <ul class="redes">
@@ -61,4 +77,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
