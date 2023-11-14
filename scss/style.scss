@@ -135,7 +135,18 @@ header {
 }
 
 /* Estilos noticias */
+.calendar-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
 
+iframe {
+   border: 0;
+   width: 600px; 
+   height: 400px; 
+}
 
 /* estilos mundogorde */
 .indumentaria {
