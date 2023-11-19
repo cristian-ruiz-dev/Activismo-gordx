@@ -129,7 +129,17 @@ header {
 }
 
 /* Estilos noticias */
-
+.titulo-noticias {
+  display: flex;
+  text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 2rem;
+}
+.p-agenda {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  
+}
 /* estilos mundogorde */
 .indumentaria {
   background-color: #EFFAB4;
