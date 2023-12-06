@@ -89,4 +89,110 @@ a {
   margin: 1.5rem;
 }
 
+.body-quienes {
+  background-color: #EFFAB4;
+}
+
+.guia-gordx {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: blaCK;
+  text-align: center;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.titulo-noticias {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 3rem;
+  background-color: #fd9c66;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.p-agenda {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  background-color: #fd9c66;
+  font-size: 1.5rem;
+  margin: 0 auto;
+  padding: 3rem;
+  padding-bottom: 6rem;
+}
+
+.mundo-titulo {
+  font-size: 3rem;
+}
+
+.indumentaria {
+  background-color: #EFFAB4;
+  text-align: center;
+  padding: 2rem;
+}
+
+.indumentaria-p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  background-color: #EFFAB4;
+  font-size: 20px;
+  text-align: center;
+  padding: 2rem;
+}
+
+.salud-section {
+  background-color: #D1F2A5;
+  text-align: center;
+  padding: 2rem;
+}
+
+.salud-p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  padding: 2rem;
+  background-color: #D1F2A5;
+}
+
+.footer {
+  margin-top: 0;
+  border-top: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #D1F2A5;
+  padding: 9rem;
+}
+
+.box-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  flex-wrap: wrap;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.footer p {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+
 /*# sourceMappingURL=style.css.map */

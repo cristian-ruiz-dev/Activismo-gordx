@@ -1,0 +1,76 @@
+
+.mundo-titulo {
+    font-size: $font-xxl;
+}
+
+
+.indumentaria {
+    background-color: #EFFAB4;
+    text-align: center;
+    padding: 2rem;
+}
+
+.indumentaria-p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    background-color: #EFFAB4;
+    font-size: 20px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.salud-section {
+    background-color: $color-principal;
+    text-align: center;
+    padding: 2rem;
+}
+
+.salud-p {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    padding: 2rem;
+    background-color: $color-principal;
+
+}
+
+.footer {
+    margin-top: 0;
+    border-top: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D1F2A5;
+    padding: 9rem;
+}
+    
+.box-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+
+.redes {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: $font-xl;
+}
+
+.footer p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: "Fira Sans", sans-serif;
+    font-size: $font-medium;
+    margin: 1.5rem;
+}
