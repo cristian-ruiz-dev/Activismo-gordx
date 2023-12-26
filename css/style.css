@@ -141,6 +141,11 @@ a {
   padding: 2rem;
 }
 
+.map-container {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .salud-section {
   background-color: #EFFAB4;
   text-align: center;
